@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/ec2-user/continous-deployment/FlaskAppCodeDeploy
+cd /home/ec2-user/my-flask-app
 source environment/bin/activate
 supervisord -c supervisord.conf
 
