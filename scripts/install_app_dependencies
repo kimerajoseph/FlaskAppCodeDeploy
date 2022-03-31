@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo pip3 install virtualenv
-cd /home/ec2-user/my-flask-app
+cd /home/ec2-user/ci-cd-deploy/FlaskAppCodeDeploy
 virtualenv environment
 source environment/bin/activate
 sudo pip3 install -r requirements.txt

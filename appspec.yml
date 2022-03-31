@@ -2,8 +2,9 @@ version: 0.0
 os: linux
 files:
  - source: .
-   destination: /home/ec2-user/continous-deployment/FlaskAppCodeDeploy
-hooks:
+   destination: /home/ec2-user/ci-cd-deploy/FlaskAppCodeDeploy
+   overwrite: true
+file_exists_behavior: OVERWRITE
   AfterInstall:
    - location: scripts/install_app_dependencies
      timeout: 300
