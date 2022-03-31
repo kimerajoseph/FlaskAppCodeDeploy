@@ -1,3 +1,6 @@
+FIRST CHECK ALL YAML FILES HERE
+http://www.yamllint.com/
+
 DESTINATION OF NEW FILES:
 - check the appspec.yml file 
 
