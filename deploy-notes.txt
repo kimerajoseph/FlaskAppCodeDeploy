@@ -1,2 +1,5 @@
-DEESTINATION OF NEW FILES:
+DESTINATION OF NEW FILES:
 - check the appspec.yml file 
+
+ERRORS
+- Make sure the IAM role for code-deploy has EC2-FullAccessRights
