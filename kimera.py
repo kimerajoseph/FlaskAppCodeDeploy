@@ -1,6 +1,4 @@
 def kimera():
-    print("DONE")
+    print("AFTER EC2-ROLE-CHANGE")
     return 
 
-def katamba(y):
-    return y*8
